@@ -23,7 +23,7 @@ tb_dia_cliente AS (
     ORDER BY t1.IdCliente, dtDia
 ),
 
-TB_RN AS (
+tb_rn AS (
     SELECT *,
             row_number() OVER (PARTITION BY IdCliente ORDER BY qtdeInteracoes DESC) AS rn
     FROM tb_dia_cliente
