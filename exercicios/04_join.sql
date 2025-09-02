@@ -1,4 +1,4 @@
---04- Clientes mais antigos, tem mais frequência de transação?
+--04- Clientes mais antigos, tem mais frequência de transação? R- Não é possível determinar se tem relação.
 
 --julianday é uma função que converte uma data ou hora para o número de dias desde uma data de referência específica. Esta função é frequentemente usada para calcular diferenças entre datas, retornando um número que representa a quantidade de dias que se passaram.
 
