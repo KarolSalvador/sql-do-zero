@@ -2,7 +2,7 @@
 
 --leitura: seleciona todas as colunas da tabela transações com filtro dos clientes que tiveram transações dia 29 e clientes que fizeram alguma transação dia 25
 
-SELECT *
+SELECT count(DISTINCT IdCliente)
 
 FROM transacoes AS t1
 
